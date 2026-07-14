@@ -9,6 +9,7 @@ const chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 // service.GenPassService
 type GenPass interface { //contract
+	//remember when implement method then put it in the interface
 	GeneratePassword(length int) (string, error)
 }
 
